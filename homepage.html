@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html> 
+   <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <title>DisneyLand Brochure</title> 
+     
+     <style>
+* {
+  background-image: url("images/bkg.png");
+  background-repeat: repeat-x repeat-y;
+	font-family: Waltograph;
+	width:device-width;
+	initial-scale:1.0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #CC00FF;
+  background-color: #323232;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+
+}
+
+article{
+  font-family: 'Roboto Mono', monospace;
+  border: 1px solid #fff;
+  border-radius:1rem;
+  width: 60%;
+  height: auto;
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section
+{
+  width: 100%;
+  height: auto;
+}
+
+p
+{
+
+  height: auto;
+	font-size: 27px;
+	color: #00ffff;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+  width: 100%;
+  height: auto;
+}
+
+</style>
+</head>
+<body>
+  <div>
+<nav>
+  <a href="index.html" class="adv">BACK</a> 
+</nav>
+</div>
+
+<section class="row1">
+  <div class='div1'>
+    <img src="images/gaintwheel.png" style="width: 100%; height: auto;">
+  </div>
+  
+  <article class="articlediv1">
+    <h1>Where the most magical stories come to life</h1>
+    <p>Explore two Disney Parks, where over 50 amazing attractions, spectacular shows,<br> dazzling parades, unforgettable Disney Character Encounters and stunning seasons bring Disney stories, old and new, to life before your very eyes. <br>And as for your story? Make it a fairy tale by staying in one of our magical Disney Hotels, a blissful Disney Nature Resort or a specially handpicked partner hotel. <br>And it doesn't end there, as you can spend your evenings in the lively Disney Village, tuck into Disneylicious dining at over 50 themed restaurants and lots more.</p>
+  </article>
+</section>
+
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</body>
+</html>

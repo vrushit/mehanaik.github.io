@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html> 
+   <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <title>DisneyLand Brochure</title> 
+     
+     <style>
+* {
+  background-image: url("images/bkg.png");
+  background-repeat: repeat-x repeat-y;
+  width:device-width;
+  initial-scale:1.0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #CC00FF;
+  background-color: #323232;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+
+}
+
+article{
+  font-family: 'Roboto Mono', monospace;
+  border: 1px solid #fff;
+  border-radius:1rem;
+  width: 60%;
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section
+{
+  width: 100%;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+p
+{
+  color: #00ffff;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+  width: 100%;
+  height: auto;
+}
+}
+</style>
+</head>
+<body>
+  <div>
+<nav>
+  <a href="index.html" class="adv">BACK</a> 
+</nav>
+</div>
+
+<section class="row1">
+  <div class='div1'>
+    <img src="images/lionfestival.jpg" style="width: 100%; height: auto;">
+  </div>
+  
+  <article class="articlediv1">
+    <h1>THE LION KING & JUNGLE FESTIVAL</h1>
+    <p>This is your chance to 'oobee doo', shake a tail feather and feel the rhythm of a <br>bouncing jungle habitat overgrown with fresh new shows and  immersive experiences alongside<br> a tribe of friends from The Lion King and The Jungle Book, such as  Timon & Pumbaa, Baloo and King Louie</p>
+  </article>
+</section>
+
+<section class="row2">
+  <div>
+    <article class="articlediv2">
+      <h1>SPARKLEY DISNEY ILLUMINATION SHOW</h1>
+      <p>With Mickey by your side, you’ll be amazed by the celebrated Disney stories bringing a special sparkle to the skies above Disneyland Park.<br>
+       Shiver with excitement when Queen Elsa introduces a flurry of Frozen fun, live a tale as old as time with the new Beauty and the Beast, <br>let out your proudest Lion King roar, and for the first time ever, see Star Wars, Pirates of the Caribbean and The Little Mermaid in all their glory on Sleeping Beauty Castle.</p>
+    </article>
+    <div class='div2'>
+      <img src="images/illumination show.jpg" style="width: 100%; height: auto;">
+    </div>
+</section>
+
+<section class="row3">
+  <div class='div1'>
+    <img src="images/parade.jpg" style="width: 100%; height: auto;">
+  </div>
+  
+  <article class="articlediv1">
+    <h1>DISNEY STARS ON PARADE</h1>
+    <p>Every day is parade day in Disneyland Park. You can discover eight fabulous universes making Main Street the liveliest place in the land. Twinkling with colourful costumes and magical music, this is your chance to see Disney stories brought to life like never before.</p>
+  </article>
+</section>
+
+<section class="row4">
+  <div>
+    <article class="articlediv2">
+      <h1>Buffalo Bill's Wild West Show... with Mickey and Friends</h1>
+      <p>Saddle up and witness how the West was won in this spectacular, gun-slinging live arena show. Hosted by the legendary Buffalo Bill, famous faces, such as Chief Sitting Bull, Annie Oakley and the Rough Riders, re-enact fabled moments from the frontier through stunning shootouts and sensational stunts. Plus there are special appearances by Mickey and Friends to help you cheer on all the action.</p>
+    </article>
+    <div class='div2'>
+      <img src="images/show.jpg" style="width: 100%; height: auto;">
+    </div>
+</section>
+
+<section class="row5">
+  <div class='div1'>
+    <img src="images/runweekend.jpg" style="width: 100%; height: auto;">
+  </div>
+  
+  <article class="articlediv1">
+    <h1>DISNEYLAND PARIS RUN WEEKEND</h1>
+    <p>When you runDisney, you’ll experience spectacular runs through Disney Parks on the most amazing courses on Earth. Plus you’ll enjoy special Disney entertainment, and bring home uniquely designed Disney finisher medals. <br>RunDisney program proposes a variety of Disney themed weekends and distances including marathon, half marathon, 10K, 5K and Kids races. <br>Celebrate your run and keep the magic going with a fabulous Disney holiday.</p>
+  </article>
+</section>
+
+<section class="row6">
+  <div>
+    <article class="articlediv2">
+      <h1>ELECTROLAND: Where music meets magic</h1>
+      <p>Are you ready to party like a villain? Because Disney's most mischievous are gatecrashing this year's Electroland,<br> and they're bringing with them the wickedest vibes and baddest lineup of scary good DJs to date.<br>
+      Bounce to the beat of world-renowned DJs at this totally unique party electrifying Walt Disney Studios Park.</p>
+    </article>
+    <div class='div2'>
+      <img src="images/electroland.jpg" style="width: 100%; height: auto;">
+    </div>
+</section>
+
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+
+</body>
+</html>

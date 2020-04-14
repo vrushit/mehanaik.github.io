@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <title>DisneyLand Brochure</title> 
+     
+     <style>
+* {
+  
+  background-image: url("images/bkg.png");
+  background-repeat: repeat-x repeat-y;
+	width:device-width;
+	initial-scale:1.0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #CC00FF;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+
+}
+
+/* Create two columns/boxes that floats next to each other */
+
+
+article{
+  font-family: 'Roboto Mono', monospace;
+  border: 1px solid #fff;
+  border-radius:1rem;
+  width: 60%;
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section
+{
+  width: 100%;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+p
+{
+	color: #00ffff;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {  
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+  width: 100%;
+  height: auto;
+}
+}
+
+</style>
+</head>
+<body>
+  <div>
+<nav>
+  <a href="index.html" class="adv">BACK</a> 
+</nav>
+</div>
+
+
+<section class="row1">
+  <div class='div1'>
+    <img src="images/restaurant.jpg" style="width: 100%; height: auto;"><
+  </div>
+  
+  <article class="articlediv1">
+    <h1>Captain Jack's-Restaurant des Pirates</h1>
+    <p>Scarper to the shores of a tropical lagoon for a terrific time in a pirates’ paradise bedecked in flags, banners and wanted posters from a lawless age.
+    <br> There's something for the most seafaring of travellers, as waiters in new pirates’ garb serve up hearty <br>Creole cooking in this not-so-hidden treasure overlooking Pirates of the Caribbean.</p>
+  </article>
+</section>
+
+<section class="row2">
+	<div>
+		<article class="articlediv2">
+	    <h1>Plaza Gardens Restaurant</h1>
+	    <p>Make your way along the fountain path from Central Plaza to a period of elegance in Main Street's oldest building. <br>Antique furniture, porcelain, bevelled mirrors and velvet drapes, all in sumptuous shades of pink and green, supply the setting,<br> as you enjoy a generous selection of starters, main dishes and mouth-watering desserts.</p>
+	  </article>
+	  <div class='div2'>
+	  	<img src="images/plazagardens.jpg" style="width: 100%; height: auto;">
+	  </div>
+</section>
+
+<section class="row3">
+  <div class='div1'>
+    <img src="images/lucky-nugget.jpg" style="width: 100%; height: auto;">
+  </div>
+  
+  <article class="articlediv1">
+    <h1>The Lucky Nugget Saloon</h1>
+    <p>Venture over to  in Frontierland and discover the legend behind this Western hangout. Way back when cowboys roamed the plains, the flamboyant Miss 'Diamond' Lil had the good fortune to find a lucky golden nugget the size of a loaf of bread.<br> Upon this moment of great fortune, Lil decided to build Thunder Mesa's <br>grandest Western saloon, where patrons of all sizes can kick back and enjoy the specialities of the glitziest, most vibrant saloon in town!<br> It's the perfect stop off pre, post or smack bang in the middle of your Disney expedition.</p>
+  </article>
+</section>
+
+<section class="row4">
+  <div>
+    <article class="articlediv2">
+      <h1>Restaurant Agrabah Cafe</h1>
+      <p>Jump off your magic carpet and take a seat in the enchanting passageways of an old Arabian bazaar,<br> where a marvellous Moroccan and Middle Eastern buffet grants all your hungry wishes. <br>Keep your eyes peeled for Aladdin, as you soak up the buzzing atmosphere of the land where the caravan camels roam.</p>
+    </article>
+    <div class='div2'>
+      <img src="images/agrabah.jpg" style="width: 100%; height: auto;">
+    </div>
+</section>
+
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</body>
+</html>
